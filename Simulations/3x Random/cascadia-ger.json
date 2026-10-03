@@ -1,0 +1,100 @@
+{
+  "meta" : {
+    "game" : "Cascadia",
+    "agents" : [ "RandomPlayer", "RandomPlayer", "RandomPlayer" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776745394949
+  },
+  "outcome" : {
+    "winRate" : [ 0.2, 0.4, 0.5 ],
+    "scoreMean" : [ 56.7, 62.6, 64.5 ],
+    "scoreStd" : [ 10.53612832116238, 13.062924634246345, 6.830080526611674 ],
+    "tieRate" : 0.1,
+    "elo" : [ 882.3291228937226, 1048.8611744476163, 1066.3916542408226 ]
+  },
+  "resources" : {
+    "spendRate" : 0.610526315788831,
+    "usedRate" : 0.0,
+    "wasteRate" : 0.38947368421011636,
+    "lateGameValueDecay" : 1.0,
+    "byType" : {
+      "Cascadia Wildlife Token" : {
+        "spendRate" : 0.610526315788831,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.38947368421011636,
+        "lateGameValueDecay" : 1.0,
+        "byType" : null
+      }
+    }
+  },
+  "progression" : {
+    "meanTurns" : 58.0,
+    "turnStd" : 0.0,
+    "earlyLeadConversion" : 0.5
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 1.4708084763221114,
+    "outcomeRichness" : 5,
+    "outcomeEvenness" : 0.9138646883853215,
+    "zahlEstimator" : 5.316464295638878,
+    "meanHammingDistance" : 161.26666666666668,
+    "normalizedHammingDistance" : 0.9215238095238094,
+    "entropyCollapseRate" : 0.1286792043135128,
+    "entropyPerformanceA" : -0.09868552029704032,
+    "entropyPerformanceB" : 51.33297579797636
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 45.11257142857143,
+    "meanActionLength" : 3.0,
+    "administrativeActionRatio" : 0.15172413793103448,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.6537247138540683,
+    "meanRewardDelay" : 4.0,
+    "consequenceSensitivity" : 0.11906988112588195,
+    "strategicBreadth" : 0.9836956521739131,
+    "moveDiversity" : 0.5260931090060662
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.43275862068965515,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.1310344827586207,
+    "agencyDensity" : 0.4362068965517242,
+    "skillLeverage" : 0.31514182380878375,
+    "luckLeverage" : 1.0,
+    "skillLuckIndex" : -0.5207485335747271,
+    "eloStdDev" : 82.94526800676786
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.24615384615384617,
+    "peakGiniTiming" : 0.20689655172413793,
+    "meanGini" : 0.08532896439482228,
+    "winCurveResilience" : 0.0
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.0,
+    "waterSignature" : 0.3333333333333333,
+    "fireSignature" : 0.26268322026404745,
+    "windSignature" : 0.01884760160911321,
+    "lightSignature" : 0.7771929824561403,
+    "dominantElement" : "Light (Altruism)",
+    "responseSensitivity" : 0.31636363636363635,
+    "interactionIntensity" : 0.3041267299870057
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 45.11257142857143,
+    "inputBreadthVariance" : 62.67821140409422,
+    "adaptationPotential" : 0.6862857142857143,
+    "meanScoreDelta" : 3.508771929824561,
+    "maxScoreSwing" : 16.0,
+    "realizationVariance" : 2.8990186301849517,
+    "leaderChangeRate" : 0.18070175438596492,
+    "brittlenessIndex" : 0.0
+  },
+  "annotations" : [ {
+    "severity" : "WARNING",
+    "title" : "Luck-Dominated Game",
+    "explanation" : "Skill-Luck Index is -0.52  chance outweighs skill.",
+    "suggestion" : "Reduce output randomness, add strategic mitigation of luck, or increase decision weight."
+  } ]
+}

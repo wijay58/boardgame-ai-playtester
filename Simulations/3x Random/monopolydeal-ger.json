@@ -1,0 +1,117 @@
+{
+  "meta" : {
+    "game" : "MonopolyDeal",
+    "agents" : [ "RandomPlayer", "RandomPlayer", "RandomPlayer" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776745744711
+  },
+  "outcome" : {
+    "winRate" : [ 0.4, 0.5, 0.5 ],
+    "scoreMean" : [ 0.26666666666666666, 0.33333333333333337, 0.33333333333333337 ],
+    "scoreStd" : [ 0.38873012632302006, 0.4472135954999579, 0.4472135954999579 ],
+    "tieRate" : 0.2,
+    "elo" : [ 1000.0, 1000.0, 1000.0 ]
+  },
+  "resources" : {
+    "spendRate" : 0.0,
+    "usedRate" : 0.0,
+    "wasteRate" : 0.0,
+    "lateGameValueDecay" : 0.0,
+    "byType" : { }
+  },
+  "progression" : {
+    "meanTurns" : 151.7,
+    "turnStd" : 64.36155684878979,
+    "earlyLeadConversion" : 0.2
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 1.8866967846580784,
+    "outcomeRichness" : 7,
+    "outcomeEvenness" : 0.969570350190125,
+    "zahlEstimator" : 8.90574687511501,
+    "meanHammingDistance" : 599.2222222222222,
+    "normalizedHammingDistance" : 0.9662780376754937,
+    "entropyCollapseRate" : 0.0196631306429575,
+    "entropyPerformanceA" : -0.08005431106636511,
+    "entropyPerformanceB" : -12.490721331817028
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 4.771496815286624,
+    "meanActionLength" : 3.2979564930784444,
+    "administrativeActionRatio" : 0.15850489706176293,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.0,
+    "meanRewardDelay" : 10.0,
+    "consequenceSensitivity" : 0.07453114808947399,
+    "strategicBreadth" : 0.9266666666666666,
+    "moveDiversity" : 0.46663015594043267
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.4772577455504285,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.7930125247198417,
+    "agencyDensity" : 0.0,
+    "skillLeverage" : 0.0,
+    "luckLeverage" : 1.0,
+    "skillLuckIndex" : -1.0,
+    "eloStdDev" : 0.0
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.6666666666666667,
+    "peakGiniTiming" : 0.6496350364963503,
+    "meanGini" : 0.24756463780854085,
+    "winCurveResilience" : 0.0
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.0,
+    "waterSignature" : 0.41207697412076977,
+    "fireSignature" : 0.021010110696071362,
+    "windSignature" : 0.06028738353778288,
+    "lightSignature" : 0.0,
+    "dominantElement" : "Water (Displacement)",
+    "responseSensitivity" : 0.8655010087424344,
+    "interactionIntensity" : 0.43286269785309184
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 4.771496815286624,
+    "inputBreadthVariance" : 3.4747060987830025,
+    "adaptationPotential" : 0.5927547770700637,
+    "meanScoreDelta" : 0.017695200176952,
+    "maxScoreSwing" : 1.0,
+    "realizationVariance" : 0.08314096440956767,
+    "leaderChangeRate" : 0.013271400132714002,
+    "brittlenessIndex" : 0.75
+  },
+  "annotations" : [ {
+    "severity" : "WARNING",
+    "title" : "Low Resource Relevance",
+    "explanation" : "Resources are frequently wasted or unused.",
+    "suggestion" : "Increase resource sinks, scaling costs, or late-game conversion."
+  }, {
+    "severity" : "WARNING",
+    "title" : "High Flavor Choice Rate",
+    "explanation" : "79% of turns present choices that lead to identical outcomes.",
+    "suggestion" : "Differentiate action payoffs  ensure moves have meaningfully different consequences."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Luck-Dominated Game",
+    "explanation" : "Skill-Luck Index is -1.00  chance outweighs skill.",
+    "suggestion" : "Reduce output randomness, add strategic mitigation of luck, or increase decision weight."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Early Resource Monopolization",
+    "explanation" : "Peak Gini coefficient reaches 0.67 before 75% completion  runaway leader risk.",
+    "suggestion" : "Implement catch-up mechanics, dynamic game balancing, or diminishing returns on leads."
+  }, {
+    "severity" : "CRITICAL",
+    "title" : "Collapsed Win Curve",
+    "explanation" : "Trailing players at the midpoint have near-zero chance of winning.",
+    "suggestion" : "Add rubber-banding, hidden objectives, or late-game swing opportunities."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Brittle Outcome Resolution",
+    "explanation" : "75% of games were decided by a single large score swing.",
+    "suggestion" : "Add buffers against bad luck  backup plans, insurance mechanics, or diminishing returns on swings."
+  } ]
+}

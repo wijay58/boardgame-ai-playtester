@@ -1,0 +1,199 @@
+{
+  "meta" : {
+    "game" : "Wonders7",
+    "agents" : [ "RandomPlayer", "Basic MCTS", "Basic MCTS" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776752366440
+  },
+  "outcome" : {
+    "winRate" : [ 0.0, 0.7, 0.4 ],
+    "scoreMean" : [ 18.5, 40.2, 32.3 ],
+    "scoreStd" : [ 3.640054944640259, 7.4404300950953095, 8.49764673306675 ],
+    "tieRate" : 0.1,
+    "elo" : [ 648.475141685397, 1244.1553025117669, 1099.4328949892897 ]
+  },
+  "resources" : {
+    "spendRate" : 0.0,
+    "usedRate" : 0.34212962962947124,
+    "wasteRate" : 0.6578703703700658,
+    "lateGameValueDecay" : 1.0293140512018761,
+    "byType" : {
+      "Clay" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.8277777777731791,
+        "wasteRate" : 0.17222222222126543,
+        "lateGameValueDecay" : 1.7146282973621103,
+        "byType" : null
+      },
+      "Textile" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.7692307692189349,
+        "wasteRate" : 0.23076923076568046,
+        "lateGameValueDecay" : 1.4273341416940932,
+        "byType" : null
+      },
+      "Ore" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.8360655737659232,
+        "wasteRate" : 0.1639344262286124,
+        "lateGameValueDecay" : 1.022,
+        "byType" : null
+      },
+      "Wood" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.8473684210481718,
+        "wasteRate" : 0.1526315789465651,
+        "lateGameValueDecay" : 0.7661642862779137,
+        "byType" : null
+      },
+      "Shield" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.9999999999932433,
+        "lateGameValueDecay" : 1.0325342465753424,
+        "byType" : null
+      },
+      "Glass" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.7564102564005588,
+        "wasteRate" : 0.24358974358662064,
+        "lateGameValueDecay" : 0.8360655737704917,
+        "byType" : null
+      },
+      "Stone" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.8633093525117748,
+        "wasteRate" : 0.13669064748103102,
+        "lateGameValueDecay" : 1.8630136986301369,
+        "byType" : null
+      },
+      "Papyrus" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.7833333333202778,
+        "wasteRate" : 0.21666666666305556,
+        "lateGameValueDecay" : 1.1052631578947367,
+        "byType" : null
+      },
+      "Compass" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.9999999999285715,
+        "lateGameValueDecay" : 0.8726296358449405,
+        "byType" : null
+      },
+      "Coin" : {
+        "spendRate" : 0.034990791896804804,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.9650092081013536,
+        "lateGameValueDecay" : 1.1521438450899033,
+        "byType" : null
+      },
+      "Tablet" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.9999999999411765,
+        "lateGameValueDecay" : 0.8153399935546245,
+        "byType" : null
+      },
+      "Cog" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.9999999998333333,
+        "lateGameValueDecay" : 0.9090909090909091,
+        "byType" : null
+      },
+      "Victory" : {
+        "spendRate" : 0.0,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.9999999999982014,
+        "lateGameValueDecay" : 1.1312607944732298,
+        "byType" : null
+      }
+    }
+  },
+  "progression" : {
+    "meanTurns" : 53.0,
+    "turnStd" : 0.0,
+    "earlyLeadConversion" : 0.4
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 1.1682824501765625,
+    "outcomeRichness" : 4,
+    "outcomeEvenness" : 0.8427376486136672,
+    "zahlEstimator" : 3.736997382879723,
+    "meanHammingDistance" : 51.111111111111114,
+    "normalizedHammingDistance" : 0.9465020576131683,
+    "entropyCollapseRate" : -0.2388117905341311,
+    "entropyPerformanceA" : -0.0,
+    "entropyPerformanceB" : 41.2
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 8.305555555555555,
+    "meanActionLength" : 1.0,
+    "administrativeActionRatio" : 0.0,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.823564986065907,
+    "meanRewardDelay" : 3.0,
+    "consequenceSensitivity" : 0.2035927813202898,
+    "strategicBreadth" : 0.9928057553956835,
+    "moveDiversity" : 0.49027683779745906
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.0,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.6773584905660377,
+    "agencyDensity" : 0.3226415094339623,
+    "skillLeverage" : 0.5982645675414302,
+    "luckLeverage" : 0.6,
+    "skillLuckIndex" : -0.0014482882207979262,
+    "eloStdDev" : 253.6713369053496
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.6666666666666667,
+    "peakGiniTiming" : 0.09433962264150944,
+    "meanGini" : 0.2563892815743858,
+    "winCurveResilience" : 0.23076923076923078
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.2675500920136064,
+    "waterSignature" : 0.1326923076923077,
+    "fireSignature" : 0.05384615384615385,
+    "windSignature" : 0.019230769230769232,
+    "lightSignature" : 0.11730769230769231,
+    "dominantElement" : "Earth (Mutualism)",
+    "responseSensitivity" : 0.0,
+    "interactionIntensity" : 0.06217948717948718
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 8.305555555555555,
+    "inputBreadthVariance" : 3.3902319742911655,
+    "adaptationPotential" : 0.5777777777777777,
+    "meanScoreDelta" : 1.6076923076923078,
+    "maxScoreSwing" : 21.0,
+    "realizationVariance" : 3.3374245110360032,
+    "leaderChangeRate" : 0.05,
+    "brittlenessIndex" : 0.0
+  },
+  "annotations" : [ {
+    "severity" : "WARNING",
+    "title" : "High Flavor Choice Rate",
+    "explanation" : "68% of turns present choices that lead to identical outcomes.",
+    "suggestion" : "Differentiate action payoffs  ensure moves have meaningfully different consequences."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Early Resource Monopolization",
+    "explanation" : "Peak Gini coefficient reaches 0.67 before 75% completion  runaway leader risk.",
+    "suggestion" : "Implement catch-up mechanics, dynamic game balancing, or diminishing returns on leads."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Multiplayer Solitaire",
+    "explanation" : "Interaction intensity is only 0.06  players rarely affect each other.",
+    "suggestion" : "Add drafting, blocking, trading, or reactive phases to increase player-to-player influence."
+  }, {
+    "severity" : "INFO",
+    "title" : "Low Response Sensitivity",
+    "explanation" : "Players rarely change strategy in response to opponents.",
+    "suggestion" : "Add more visible opponent state, reactive mechanics, or incentives to adapt."
+  } ]
+}

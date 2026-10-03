@@ -1,0 +1,102 @@
+{
+  "meta" : {
+    "game" : "MonopolyDeal",
+    "agents" : [ "RandomPlayer", "Basic MCTS", "Basic MCTS" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776752257943
+  },
+  "outcome" : {
+    "winRate" : [ 0.1, 0.7, 0.2 ],
+    "scoreMean" : [ 0.2333333333333333, 0.7333333333333333, 0.4333333333333333 ],
+    "scoreStd" : [ 0.334995854037363, 0.41633319989322654, 0.334995854037363 ],
+    "tieRate" : 0.0,
+    "elo" : [ 866.4149670577561, 1146.9083071016387, 980.5291645110166 ]
+  },
+  "resources" : {
+    "spendRate" : 0.0,
+    "usedRate" : 0.0,
+    "wasteRate" : 0.0,
+    "lateGameValueDecay" : 0.0,
+    "byType" : { }
+  },
+  "progression" : {
+    "meanTurns" : 118.8,
+    "turnStd" : 48.28622992116904,
+    "earlyLeadConversion" : 0.3
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 1.6434177197931796,
+    "outcomeRichness" : 6,
+    "outcomeEvenness" : 0.9172088932791936,
+    "zahlEstimator" : 6.642030532272321,
+    "meanHammingDistance" : 391.15555555555557,
+    "normalizedHammingDistance" : 0.9643697231238044,
+    "entropyCollapseRate" : 0.011145483206813979,
+    "entropyPerformanceA" : -0.0,
+    "entropyPerformanceB" : 1.0
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 4.300118976799524,
+    "meanActionLength" : 2.8097643097643097,
+    "administrativeActionRatio" : 0.23067705212702216,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.2748762524790437,
+    "meanRewardDelay" : 1.0,
+    "consequenceSensitivity" : 0.09496875288957222,
+    "strategicBreadth" : 1.0,
+    "moveDiversity" : 0.4359537626522087
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.5126262626262627,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.7003367003367004,
+    "agencyDensity" : 0.0,
+    "skillLeverage" : 0.41219116123281163,
+    "luckLeverage" : 0.6,
+    "skillLuckIndex" : -0.18554680771806392,
+    "eloStdDev" : 115.17165110224988
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.6666666666666667,
+    "peakGiniTiming" : 0.2545454545454545,
+    "meanGini" : 0.39894313505424955,
+    "winCurveResilience" : 0.26666666666666666
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.0,
+    "waterSignature" : 0.3938879456706282,
+    "fireSignature" : 0.2124321375508492,
+    "windSignature" : 0.0838156845911563,
+    "lightSignature" : 0.0,
+    "dominantElement" : "Water (Displacement)",
+    "responseSensitivity" : 0.8013816925734024,
+    "interactionIntensity" : 0.46923392526495994
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 4.300118976799524,
+    "inputBreadthVariance" : 3.027839297706085,
+    "adaptationPotential" : 0.5270672218917312,
+    "meanScoreDelta" : 0.03508771929824561,
+    "maxScoreSwing" : 0.6666666666666666,
+    "realizationVariance" : 0.12397376070308104,
+    "leaderChangeRate" : 0.04584040747028863,
+    "brittlenessIndex" : 0.1
+  },
+  "annotations" : [ {
+    "severity" : "WARNING",
+    "title" : "Low Resource Relevance",
+    "explanation" : "Resources are frequently wasted or unused.",
+    "suggestion" : "Increase resource sinks, scaling costs, or late-game conversion."
+  }, {
+    "severity" : "WARNING",
+    "title" : "High Flavor Choice Rate",
+    "explanation" : "70% of turns present choices that lead to identical outcomes.",
+    "suggestion" : "Differentiate action payoffs  ensure moves have meaningfully different consequences."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Early Resource Monopolization",
+    "explanation" : "Peak Gini coefficient reaches 0.67 before 75% completion  runaway leader risk.",
+    "suggestion" : "Implement catch-up mechanics, dynamic game balancing, or diminishing returns on leads."
+  } ]
+}

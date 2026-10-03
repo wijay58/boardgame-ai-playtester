@@ -1,0 +1,100 @@
+{
+  "meta" : {
+    "game" : "Cascadia",
+    "agents" : [ "RandomPlayer", "Basic MCTS", "Basic MCTS" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776752036482
+  },
+  "outcome" : {
+    "winRate" : [ 0.0, 0.6, 0.4 ],
+    "scoreMean" : [ 42.4, 115.7, 107.8 ],
+    "scoreStd" : [ 5.276362383309167, 12.915494570476191, 10.712609392673663 ],
+    "tieRate" : 0.0,
+    "elo" : [ 344.2428185402012, 1355.489400737648, 1285.610166791854 ]
+  },
+  "resources" : {
+    "spendRate" : 0.610526315788831,
+    "usedRate" : 0.0,
+    "wasteRate" : 0.38947368421011636,
+    "lateGameValueDecay" : 1.0,
+    "byType" : {
+      "Cascadia Wildlife Token" : {
+        "spendRate" : 0.610526315788831,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.38947368421011636,
+        "lateGameValueDecay" : 1.0,
+        "byType" : null
+      }
+    }
+  },
+  "progression" : {
+    "meanTurns" : 58.0,
+    "turnStd" : 0.0,
+    "earlyLeadConversion" : 0.5
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 0.6730116670092565,
+    "outcomeRichness" : 2,
+    "outcomeEvenness" : 0.9709505944546688,
+    "zahlEstimator" : 2.060629805723927,
+    "meanHammingDistance" : 157.17777777777778,
+    "normalizedHammingDistance" : 0.8981587301587302,
+    "entropyCollapseRate" : 0.12790061727770335,
+    "entropyPerformanceA" : -0.1306044905634392,
+    "entropyPerformanceB" : 90.89251754929975
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 41.97428571428571,
+    "meanActionLength" : 3.0,
+    "administrativeActionRatio" : 0.17586206896551723,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.3470388865783918,
+    "meanRewardDelay" : 1.0,
+    "consequenceSensitivity" : 0.04336867382488025,
+    "strategicBreadth" : 1.0,
+    "moveDiversity" : 0.5401978238779047
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.5465517241379311,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.09310344827586207,
+    "agencyDensity" : 0.3603448275862069,
+    "skillLeverage" : 0.7165626439447872,
+    "luckLeverage" : 0.8,
+    "skillLuckIndex" : -0.055017414802055825,
+    "eloStdDev" : 461.1188376230166
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.2641509433962266,
+    "peakGiniTiming" : 0.06896551724137931,
+    "meanGini" : 0.16731020610535025,
+    "winCurveResilience" : 0.0
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.0,
+    "waterSignature" : 0.3333333333333333,
+    "fireSignature" : 0.300142889086177,
+    "windSignature" : 0.018556228631585802,
+    "lightSignature" : 0.8649122807017544,
+    "dominantElement" : "Light (Altruism)",
+    "responseSensitivity" : 0.24909090909090909,
+    "interactionIntensity" : 0.29418904383680644
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 41.97428571428571,
+    "inputBreadthVariance" : 55.20306328382844,
+    "adaptationPotential" : 0.5125714285714286,
+    "meanScoreDelta" : 5.273684210526316,
+    "maxScoreSwing" : 24.0,
+    "realizationVariance" : 3.587821814689411,
+    "leaderChangeRate" : 0.21403508771929824,
+    "brittlenessIndex" : 0.0
+  },
+  "annotations" : [ {
+    "severity" : "CRITICAL",
+    "title" : "Low Agency Density",
+    "explanation" : "Only 36% of turns involve non-redundant, impactful decisions.",
+    "suggestion" : "Reduce bookkeeping turns, consolidate forced sequences, and ensure choices have distinct outcomes."
+  } ]
+}

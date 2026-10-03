@@ -1,0 +1,107 @@
+{
+  "meta" : {
+    "game" : "MonopolyDeal",
+    "agents" : [ "Basic MCTS", "Basic MCTS", "Basic MCTS" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776747216863
+  },
+  "outcome" : {
+    "winRate" : [ 0.4, 0.4, 0.2 ],
+    "scoreMean" : [ 0.5666666666666667, 0.6, 0.4333333333333333 ],
+    "scoreStd" : [ 0.39581140290126393, 0.3590109871423003, 0.334995854037363 ],
+    "tieRate" : 0.0,
+    "elo" : [ 1040.9650228574662, 1030.9224831386118, 931.9018604874017 ]
+  },
+  "resources" : {
+    "spendRate" : 0.0,
+    "usedRate" : 0.0,
+    "wasteRate" : 0.0,
+    "lateGameValueDecay" : 0.0,
+    "byType" : { }
+  },
+  "progression" : {
+    "meanTurns" : 102.5,
+    "turnStd" : 35.78617051320244,
+    "earlyLeadConversion" : 0.1
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 2.0253262207700673,
+    "outcomeRichness" : 8,
+    "outcomeEvenness" : 0.9739760316291207,
+    "zahlEstimator" : 10.754520962000495,
+    "meanHammingDistance" : 330.5777777777778,
+    "normalizedHammingDistance" : 0.9608964694068832,
+    "entropyCollapseRate" : 0.009165047283508835,
+    "entropyPerformanceA" : -0.0,
+    "entropyPerformanceB" : 1.0
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 4.3380968978738235,
+    "meanActionLength" : 2.772682926829268,
+    "administrativeActionRatio" : 0.21569317382125264,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.0,
+    "meanRewardDelay" : 9.0,
+    "consequenceSensitivity" : 0.1055896430760077,
+    "strategicBreadth" : 1.0,
+    "moveDiversity" : 0.4048340177736593
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.5082926829268293,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.6936585365853658,
+    "agencyDensity" : 0.0,
+    "skillLeverage" : 0.21424288856867013,
+    "luckLeverage" : 1.0,
+    "skillLuckIndex" : -0.6471169144400488,
+    "eloStdDev" : 49.21687797719305
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.6666666666666667,
+    "peakGiniTiming" : 0.009615384615384616,
+    "meanGini" : 0.29693224932249296,
+    "winCurveResilience" : 0.3333333333333333
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.0,
+    "waterSignature" : 0.3852216748768473,
+    "fireSignature" : 0.19089846137099675,
+    "windSignature" : 0.09062991661041676,
+    "lightSignature" : 0.0,
+    "dominantElement" : "Water (Displacement)",
+    "responseSensitivity" : 0.7195979899497488,
+    "interactionIntensity" : 0.43190604206586425
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 4.3380968978738235,
+    "inputBreadthVariance" : 2.948261062644181,
+    "adaptationPotential" : 0.5604740327640293,
+    "meanScoreDelta" : 0.04334975369458128,
+    "maxScoreSwing" : 0.6666666666666666,
+    "realizationVariance" : 0.13754971138471808,
+    "leaderChangeRate" : 0.05123152709359606,
+    "brittlenessIndex" : 0.3
+  },
+  "annotations" : [ {
+    "severity" : "WARNING",
+    "title" : "Low Resource Relevance",
+    "explanation" : "Resources are frequently wasted or unused.",
+    "suggestion" : "Increase resource sinks, scaling costs, or late-game conversion."
+  }, {
+    "severity" : "WARNING",
+    "title" : "High Flavor Choice Rate",
+    "explanation" : "69% of turns present choices that lead to identical outcomes.",
+    "suggestion" : "Differentiate action payoffs  ensure moves have meaningfully different consequences."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Luck-Dominated Game",
+    "explanation" : "Skill-Luck Index is -0.65  chance outweighs skill.",
+    "suggestion" : "Reduce output randomness, add strategic mitigation of luck, or increase decision weight."
+  }, {
+    "severity" : "WARNING",
+    "title" : "Early Resource Monopolization",
+    "explanation" : "Peak Gini coefficient reaches 0.67 before 75% completion  runaway leader risk.",
+    "suggestion" : "Implement catch-up mechanics, dynamic game balancing, or diminishing returns on leads."
+  } ]
+}

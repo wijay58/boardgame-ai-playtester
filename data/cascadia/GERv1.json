@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "game": "Cascadia",
+    "agents": ["Random", "Greedy"],
+    "players": 3,
+    "games": 1000,
+    "seed": 12345
+  },
+
+  "outcome": {
+    "winRate": [0.31, 0.34, 0.35],
+    "scoreMean": [74.2, 81.6, 85.1],
+    "scoreStd": [12.3, 9.7, 10.1],
+    "tieRate": 0.02,
+    "scoreGini": 0.18
+  },
+
+  "skill": {
+    "elo": [1020, 1155, 1212],
+    "skillSeparationIndex": 0.63
+  },
+
+  "structure": {
+    "meanStateEntropy": 4.91,
+    "terminalStateEntropy": 3.78,
+    "stateCoverageRatio": 0.21
+  },
+
+  "decisions": {
+    "meanBranchingFactor": 14.2,
+    "decisionEntropy": 2.7,
+    "dominatedActionRate": 0.44
+  },
+
+  "resources": {
+    "spendRate": 0.81,
+    "wasteRate": 0.12,
+    "lateGameValueDecay": 0.34
+  },
+
+  "progression": {
+    "meanTurns": 20.0,
+    "turnStd": 0.0,
+    "earlyLeadConversion": 0.61
+  },
+
+  "degeneracy": {
+    "dominantPolicyRate": 0.03,
+    "forcedMoveRatio": 0.07,
+    "softlockRate": 0.00
+  }
+}

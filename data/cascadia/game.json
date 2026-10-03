@@ -1,0 +1,9 @@
+{
+  "gameName": "Cascadia",
+  "gameClass": "games.cascadia.CascadiaGame",
+  "stateClass": "games.cascadia.CascadiaGameState",
+  "forwardModelClass": "games.cascadia.CascadiaForwardModel",
+  "parametersClass": "games.cascadia.CascadiaParameters",
+  "minPlayers": 1,
+  "maxPlayers": 4
+}

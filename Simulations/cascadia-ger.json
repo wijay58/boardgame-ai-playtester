@@ -1,0 +1,95 @@
+{
+  "meta" : {
+    "game" : "Cascadia",
+    "agents" : [ "RandomPlayer", "CascadiaGreedyAgent", "Basic MCTS" ],
+    "players" : 3,
+    "games" : 10,
+    "seed" : 1776746008988
+  },
+  "outcome" : {
+    "winRate" : [ 0.0, 0.9, 0.2 ],
+    "scoreMean" : [ 37.9, 115.9, 105.4 ],
+    "scoreStd" : [ 8.227393268830658, 8.043009387039158, 10.43264108459598 ],
+    "tieRate" : 0.1,
+    "elo" : [ 300.9856529174732, 1521.9171952850788, 1166.1440656125812 ]
+  },
+  "resources" : {
+    "spendRate" : 0.610526315788831,
+    "usedRate" : 0.0,
+    "wasteRate" : 0.38947368421011636,
+    "lateGameValueDecay" : 1.0,
+    "byType" : {
+      "Cascadia Wildlife Token" : {
+        "spendRate" : 0.610526315788831,
+        "usedRate" : 0.0,
+        "wasteRate" : 0.38947368421011636,
+        "lateGameValueDecay" : 1.0,
+        "byType" : null
+      }
+    }
+  },
+  "progression" : {
+    "meanTurns" : 58.0,
+    "turnStd" : 0.0,
+    "earlyLeadConversion" : 0.6
+  },
+  "replayability" : {
+    "shannonDiversityIndex" : 0.639031859650177,
+    "outcomeRichness" : 3,
+    "outcomeEvenness" : 0.5816718657178868,
+    "zahlEstimator" : 2.093907336690956,
+    "meanHammingDistance" : 158.7111111111111,
+    "normalizedHammingDistance" : 0.9069206349206352,
+    "entropyCollapseRate" : 0.12972877862139084,
+    "entropyPerformanceA" : 0.14521728202886128,
+    "entropyPerformanceB" : 146.5934023385082
+  },
+  "strategicDepth" : {
+    "meanBranchingFactor" : 40.733714285714285,
+    "meanActionLength" : 3.0,
+    "administrativeActionRatio" : 0.16034482758620688,
+    "deadActionRate" : 0.0,
+    "opacityIndex" : 0.3944115356775156,
+    "meanRewardDelay" : 1.0,
+    "consequenceSensitivity" : 0.11524243976197109,
+    "strategicBreadth" : 0.9871794871794872,
+    "moveDiversity" : 0.5427590413010502
+  },
+  "playerAgency" : {
+    "bookkeepingRedundancy" : 0.4862068965517241,
+    "singlePlayerDeterminism" : 0.0,
+    "decisionMatrixRedundancy" : 0.08793103448275862,
+    "agencyDensity" : 0.42586206896551726,
+    "skillLeverage" : 0.7532283199229118,
+    "luckLeverage" : 0.2750645691405612,
+    "skillLuckIndex" : 0.4650073494311942,
+    "eloStdDev" : 512.6995470602666
+  },
+  "catchUpMechanics" : {
+    "peakGiniBefore75" : 0.2996254681647941,
+    "peakGiniTiming" : 0.27586206896551724,
+    "meanGini" : 0.1907672943459532,
+    "winCurveResilience" : 0.0
+  },
+  "playerInteraction" : {
+    "earthSignature" : 0.0,
+    "waterSignature" : 0.3333333333333333,
+    "fireSignature" : 0.315783843001122,
+    "windSignature" : 0.01896830913099036,
+    "lightSignature" : 0.8666666666666667,
+    "dominantElement" : "Light (Altruism)",
+    "responseSensitivity" : 0.32181818181818184,
+    "interactionIntensity" : 0.3236451193842124
+  },
+  "randomness" : {
+    "inputAdaptationBreadth" : 40.733714285714285,
+    "inputBreadthVariance" : 54.400734820967486,
+    "adaptationPotential" : 0.6857142857142857,
+    "meanScoreDelta" : 5.343859649122807,
+    "maxScoreSwing" : 16.0,
+    "realizationVariance" : 3.4596936049238165,
+    "leaderChangeRate" : 0.09298245614035087,
+    "brittlenessIndex" : 0.0
+  },
+  "annotations" : [ ]
+}

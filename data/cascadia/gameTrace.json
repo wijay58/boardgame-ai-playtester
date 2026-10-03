@@ -1,0 +1,10 @@
+{
+  "finalScores": [],
+  "winner": "",
+  "turns": 0,
+  "leadTimeline": [],
+  "branchingTimeline": [],
+  "stateEntropyTimeline": [],
+  "actionEntropyTimeline": [],
+  "resourceUseTimeline": []
+}

@@ -1,0 +1,1194 @@
+{
+  "habitatTiles": [
+    {
+      "id": "1",
+      "habitats": ["MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["ELK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "2",
+      "habitats": ["MOUNTAIN", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON", "BEAR", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "3",
+      "habitats": ["MOUNTAIN", "RIVER"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR", "SALMON"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "4",
+      "habitats": ["MOUNTAIN", "RIVER"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR", "SALMON", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "5",
+      "habitats": ["PRAIRIE", "FOREST"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["FOX", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "6",
+      "habitats": ["PRAIRIE", "FOREST"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["FOX", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "7",
+      "habitats": ["FOREST"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["FOX"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "8",
+      "habitats": ["FOREST"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["FOX"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "9",
+      "habitats": ["MOUNTAIN", "RIVER"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "10",
+      "habitats": ["PRAIRIE", "FOREST"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["SALMON", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "11",
+      "habitats": ["WETLANDS", "FOREST"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["HAWK", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "12",
+      "habitats": ["MOUNTAIN", "FOREST"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["BEAR", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "13",
+      "habitats": ["WETLANDS"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["FOX"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "14",
+      "habitats": ["FOREST", "RIVER"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK", "ELK", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "15",
+      "habitats": ["FOREST", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON", "FOX", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "16",
+      "habitats": ["FOREST", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["BEAR", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "17",
+      "habitats": ["PRAIRIE", "RIVER"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["FOX", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "18",
+      "habitats": ["WETLANDS", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["FOX", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "19",
+      "habitats": ["PRAIRIE"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["ELK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "20",
+      "habitats": ["WETLANDS", "RIVER"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["SALMON", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "21",
+      "habitats": ["FOREST", "RIVER"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["SALMON", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "22",
+      "habitats": ["PRAIRIE", "RIVER"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["SALMON", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "23",
+      "habitats": ["PRAIRIE", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["HAWK", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "24",
+      "habitats": ["WETLANDS", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["FOX", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "25",
+      "habitats": ["PRAIRIE"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "26",
+      "habitats": ["FOREST", "RIVER"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "27",
+      "habitats": ["MOUNTAIN", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["HAWK", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "28",
+      "habitats": ["WETLANDS", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON", "FOX", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "29",
+      "habitats": ["PRAIRIE", "RIVER"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["FOX", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "30",
+      "habitats": ["FOREST"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["ELK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "31",
+      "habitats": ["WETLANDS", "FOREST"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["SALMON", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "32",
+      "habitats": ["MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["BEAR"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "33",
+      "habitats": ["PRAIRIE"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["FOX"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "34",
+      "habitats": ["FOREST"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["BEAR"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "35",
+      "habitats": ["WETLANDS", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["HAWK", "FOX", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "36",
+      "habitats": ["PRAIRIE", "FOREST"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["SALMON", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "37",
+      "habitats": ["MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["ELK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "38",
+      "habitats": ["MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["HAWK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "39",
+      "habitats": ["PRAIRIE", "RIVER"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["SALMON", "FOX", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "40",
+      "habitats": ["WETLANDS", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "41",
+      "habitats": ["WETLANDS"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["HAWK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "42",
+      "habitats": ["WETLANDS", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["SALMON", "BEAR", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "43",
+      "habitats": ["PRAIRIE"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["ELK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "44",
+      "habitats": ["MOUNTAIN", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["ELK", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "45",
+      "habitats": ["FOREST", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "46",
+      "habitats": ["MOUNTAIN", "RIVER"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "47",
+      "habitats": ["WETLANDS", "FOREST"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["BEAR", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "48",
+      "habitats": ["MOUNTAIN", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["BEAR", "SALMON"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "49",
+      "habitats": ["MOUNTAIN", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["FOX", "ELK", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "50",
+      "habitats": ["FOREST", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["HAWK", "BEAR", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "51",
+      "habitats": ["RIVER"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "52",
+      "habitats": ["RIVER"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "53",
+      "habitats": ["RIVER"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["SALMON"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "54",
+      "habitats": ["RIVER", "FOREST"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["FOX", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "55",
+      "habitats": ["RIVER", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "56",
+      "habitats": ["RIVER", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["HAWK", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "57",
+      "habitats": ["FOREST"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["BEAR"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "58",
+      "habitats": ["MOUNTAIN", "FOREST"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["FOX", "ELK", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "59",
+      "habitats": ["WETLANDS"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "60",
+      "habitats": ["WETLANDS", "RIVER"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK", "BEAR", "SALMON"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "61",
+      "habitats": ["PRAIRIE", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "62",
+      "habitats": ["PRAIRIE", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON", "ELK", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "63",
+      "habitats": ["MOUNTAIN", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "64",
+      "habitats": ["WETLANDS", "FOREST"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["ELK", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "65",
+      "habitats": ["MOUNTAIN", "FOREST"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["ELK", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "66",
+      "habitats": ["RIVER", "PRAIRIE"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["FOX", "HAWK", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "67",
+      "habitats": ["PRAIRIE"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE"
+      ],
+      "allowedWildlife": ["SALMON"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "68",
+      "habitats": ["PRAIRIE", "RIVER"],
+      "baseEdgeHabitats": [
+        "PRAIRIE",
+        "PRAIRIE",
+        "PRAIRIE",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "69",
+      "habitats": ["WETLANDS", "RIVER"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "70",
+      "habitats": ["FOREST", "RIVER"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK", "ELK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "71",
+      "habitats": ["MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["HAWK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "72",
+      "habitats": ["RIVER"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["BEAR"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "73",
+      "habitats": ["WETLANDS"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["FOX"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "74",
+      "habitats": ["WETLANDS", "RIVER"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "75",
+      "habitats": ["RIVER"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "RIVER"
+      ],
+      "allowedWildlife": ["HAWK"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "76",
+      "habitats": ["MOUNTAIN", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["BEAR", "SALMON"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "77",
+      "habitats": ["RIVER", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["SALMON", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "78",
+      "habitats": ["RIVER", "FOREST"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["SALMON", "BEAR"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "79",
+      "habitats": ["FOREST", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "FOREST",
+        "FOREST",
+        "FOREST",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["ELK", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "80",
+      "habitats": ["RIVER", "WETLANDS"],
+      "baseEdgeHabitats": [
+        "RIVER",
+        "RIVER",
+        "RIVER",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON", "FOX"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "81",
+      "habitats": ["WETLANDS", "FOREST"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["HAWK", "ELK", "SALMON"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "82",
+      "habitats": ["MOUNTAIN", "FOREST"],
+      "baseEdgeHabitats": [
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "FOREST",
+        "FOREST",
+        "FOREST"
+      ],
+      "allowedWildlife": ["BEAR", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "83",
+      "habitats": ["WETLANDS", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["SALMON", "HAWK"],
+      "hasNatureMark": false
+    },
+    {
+      "id": "84",
+      "habitats": ["WETLANDS"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS"
+      ],
+      "allowedWildlife": ["SALMON"],
+      "hasNatureMark": true
+    },
+    {
+      "id": "85",
+      "habitats": ["WETLANDS", "MOUNTAIN"],
+      "baseEdgeHabitats": [
+        "WETLANDS",
+        "WETLANDS",
+        "WETLANDS",
+        "MOUNTAIN",
+        "MOUNTAIN",
+        "MOUNTAIN"
+      ],
+      "allowedWildlife": ["FOX", "ELK"],
+      "hasNatureMark": false
+    }
+  ]
+}
